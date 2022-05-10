@@ -1,0 +1,35 @@
+@import "styles/variables";
+
+.button {
+  display: flex;
+  gap: 10px;
+  border: 0;
+  appearance: none;
+  outline: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  transition: all linear 0.1s;
+  box-shadow: 0 2px 4px -2px $shadow;
+  cursor: pointer;
+
+  &:active:not(:disabled) {
+    transform: scale(0.9);
+    filter: brightness(0.9);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    color: $button-disabled-color;
+    background: $button-disabled-bg;
+  }
+}
+
+.accent {
+  color: $button-accent-color;
+  background: $button-accent-bg;
+}
+
+.secondary {
+  color: $button-secondary-color;
+  background: $button-secondary-bg;
+}

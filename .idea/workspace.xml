@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ui/button/button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/button/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/layout/sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout/sidebar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/sidebar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout/sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/sidebar/sidebar.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,8 +66,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\components\ui" />
       <recent name="D:\react\_pets\next-journal\styles\layout" />
       <recent name="D:\react\_pets\next-journal\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal" />
+      <recent name="D:\react\_pets\next-journal\components\layout" />
+      <recent name="D:\react\_pets\next-journal\components\layout\sidebar" />
+      <recent name="D:\react\_pets\next-journal\components\layout\layout" />
+      <recent name="D:\react\_pets\next-journal\components\layout\header" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652176347798</updated>
       <workItem from="1652176351177" duration="1186000" />
-      <workItem from="1652178564167" duration="3405000" />
+      <workItem from="1652178564167" duration="5728000" />
     </task>
     <servers />
   </component>

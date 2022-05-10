@@ -1,10 +1,15 @@
 import type { NextPage } from "next";
 import Layout from "../components/layout";
+import Button from "../ui/button";
 
 const Home: NextPage = () => {
   return (
     <Layout title="Home">
-      <h1>Home page</h1>
+      <Button>Click me</Button>
+      <Button type="secondary">Click me</Button>
+      <Button type="secondary" disabled>
+        Click me
+      </Button>
     </Layout>
   );
 };

@@ -3,14 +3,14 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "./header";
 import Sidebar from "./sidebar";
-import s from "../styles/layout/layout.module.scss";
+import s from "./layout.module.scss";
 
 interface ILayout {
   children: ReactNode;
   title: string;
 }
 
-const Layout: NextPage<ILayout> = ({ children, title }) => {
+const Index: NextPage<ILayout> = ({ children, title }) => {
   return (
     <>
       <Head>
@@ -21,10 +21,10 @@ const Layout: NextPage<ILayout> = ({ children, title }) => {
       <Header />
       <div className={s.layout__content}>
         <Sidebar />
-        {children}
+        <main>{children}</main>
       </div>
     </>
   );
 };
 
-export default Layout;
+export default Index;

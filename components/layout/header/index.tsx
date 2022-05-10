@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import s from "../styles/layout/header.module.scss";
+import s from "./header.module.scss";
 
 const Header: NextPage = () => {
   return (

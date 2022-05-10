@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BiListUl, BiTrendingUp } from "react-icons/bi";
 import { RiMessage2Line } from "react-icons/ri";
 import { MdOutlineLocalFireDepartment } from "react-icons/md";
-import s from "../styles/layout/sidebar.module.scss";
+import s from "./sidebar.module.scss";
 
 const Sidebar: NextPage = () => {
   return (
