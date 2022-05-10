@@ -1,0 +1,36 @@
+@import 'styles/variables.scss';
+
+.input {
+  position: relative;
+
+  &__field {
+    appearance: none;
+    border: 1px solid $input-border-color;
+    padding: 8px 10px 8px 30px;
+    border-radius: 4px;
+    width: 100%;
+    color: $input-text;
+    box-sizing: border-box;
+    @include shadow;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $input-border-focused-color;
+
+      + .input__icon {
+        color: $input-border-focused-color;
+      }
+    }
+
+    &::placeholder {
+      color: $input-placeholder;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    color: $input-placeholder;
+    top: 4px;
+    left: 10px;
+  }
+}

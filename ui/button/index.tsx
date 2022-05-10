@@ -18,7 +18,7 @@ const Button: FC<IButton> = ({
   htmlType = "button",
   disabled = false,
   onClick,
-}: IButton) => {
+}) => {
   const sButton = cn(s.button, s[type]);
 
   return (

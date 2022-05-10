@@ -15,12 +15,17 @@
   }
 
   &__item {
+    outline: none;
     display: flex;
     align-items: center;
     gap: 10px;
     color: $sidebar-item;
 
     &:hover {
+      color: darken($sidebar-item, 20)
+    }
+
+    &:focus {
       color: darken($sidebar-item, 20)
     }
   }
