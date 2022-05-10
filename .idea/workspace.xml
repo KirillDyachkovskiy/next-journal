@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/next-journal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/profile/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/layout/header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/layout/layout.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/layout/sidebar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout/sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout/sidebar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652176347798</updated>
       <workItem from="1652176351177" duration="1186000" />
-      <workItem from="1652178564167" duration="2353000" />
+      <workItem from="1652178564167" duration="3405000" />
     </task>
     <servers />
   </component>
