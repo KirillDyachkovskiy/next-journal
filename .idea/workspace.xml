@@ -2,18 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Rating/Rating.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/RatingHeader/RatingHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/RatingHeader/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/RatingHeader/ratingHeader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Rating/rating.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/rating/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutHeader/LayoutHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutHeader/LayoutHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutSidebar/LayoutSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutSidebar/LayoutSidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileHeader/profileHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Profile/ProfileHeader/profileHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutHeader/LayoutHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutHeader/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutHeader/layoutHeader.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutSidebar/LayoutSidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutSidebar/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/LayoutSidebar/layoutSidebar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/layout.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/Profile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileHeader/ProfileHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileHeader/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileHeader/profileHeader.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileWall/ProfileWall.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileWall/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileWall/profileWall.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/profile.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/Rating.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/RatingHeader/RatingHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/RatingHeader/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/RatingHeader/ratingHeader.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Rating/rating.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/rating/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rating/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Button/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Button/button.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Button/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Input/Input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Input/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Input/input.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/index.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +100,11 @@
       <recent name="D:\react\_pets\next-journal\components\Layout\Header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\views\pages" />
       <recent name="D:\react\_pets\next-journal\views" />
       <recent name="D:\react\_pets\next-journal" />
       <recent name="D:\react\_pets\next-journal\components\layout" />
       <recent name="D:\react\_pets\next-journal\components\layout\sidebar" />
-      <recent name="D:\react\_pets\next-journal\components\layout\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,7 +134,8 @@
       <updated>1652176347798</updated>
       <workItem from="1652176351177" duration="1186000" />
       <workItem from="1652178564167" duration="7842000" />
-      <workItem from="1652630159187" duration="4191000" />
+      <workItem from="1652630159187" duration="4434000" />
+      <workItem from="1652634805232" duration="318000" />
     </task>
     <servers />
   </component>

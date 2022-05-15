@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
-import { Layout, Rating } from "../../components";
+import { Layout } from "../../views/layouts";
+import { Rating } from "../../views/pages";
 
 const RatingPage: NextPage = () => {
   return (

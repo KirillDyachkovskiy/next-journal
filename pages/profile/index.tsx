@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
-import { Layout, Profile } from "../../components";
+import { Layout } from "../../views/layouts";
+import { Profile } from "../../views/pages";
 
 const ProfilePage: NextPage = () => {
   return (
