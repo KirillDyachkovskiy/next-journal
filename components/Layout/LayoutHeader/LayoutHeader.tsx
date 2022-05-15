@@ -29,7 +29,9 @@ const LayoutHeader: NextPage = () => {
           placeholder="Поиск"
           icon={<BiSearchAlt2 />}
         />
-        <Button onClick={() => {}}>Новая запись</Button>
+        <Button type="secondary" onClick={() => {}}>
+          Новая запись
+        </Button>
       </div>
       <div className={s.header__rightSide}>
         <RiMessage2Line />

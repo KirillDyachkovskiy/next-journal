@@ -28,7 +28,7 @@ const LayoutSidebar: NextPage = () => {
           </Link>
         </li>
         <li className={s.sidebar__li}>
-          <Link href="#">
+          <Link href="/rating">
             <a className={s.sidebar__item}>
               <BiTrendingUp className={s.sidebar__icon} />
               Rating

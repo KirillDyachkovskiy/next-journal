@@ -1,0 +1,14 @@
+@import "../../../styles/variables";
+
+.ratingHeader {
+  @include wrapper;
+  @include shadow;
+
+  &__title {
+    margin: 0 0 10px 0;
+  }
+
+  &__text {
+    margin: 0;
+  }
+}
