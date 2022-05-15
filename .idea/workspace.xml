@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/ui/Tabs/Tab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Tabs/Tabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Tabs/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Tabs/tabs.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/RatingHeader/RatingHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/RatingHeader/RatingHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/RatingHeader/ratingHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/RatingHeader/ratingHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/LayoutSidebar/layoutSidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutSidebar/layoutSidebar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/ProfileHeader/ProfileHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/ProfileHeader/ProfileHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/ProfileHeader/profileHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/ProfileHeader/profileHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,7 @@
       <workItem from="1652176351177" duration="1186000" />
       <workItem from="1652178564167" duration="7842000" />
       <workItem from="1652630159187" duration="4434000" />
-      <workItem from="1652634805232" duration="4478000" />
+      <workItem from="1652634805232" duration="5522000" />
     </task>
     <servers />
   </component>

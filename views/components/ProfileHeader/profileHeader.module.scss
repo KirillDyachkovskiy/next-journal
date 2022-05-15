@@ -1,12 +1,14 @@
 @import "../../styles/variables";
 
 .profileHeader {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-
-  @include wrapper;
+  @include wrapper(10px 10px 0);
   @include shadow;
+
+  &__card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 
   &__information {
     display: flex;
