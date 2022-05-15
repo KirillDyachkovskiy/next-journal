@@ -28,6 +28,7 @@ const Input: FC<IInput> = ({
 }) => {
   return (
     <label htmlFor={id} className={s.input}>
+      {icon && <div className={s.input__icon}>{icon}</div>}
       <input
         ref={customRef}
         id={id}
@@ -38,7 +39,6 @@ const Input: FC<IInput> = ({
         placeholder={placeholder}
         onBlur={onBlur}
       />
-      {icon && <div className={s.input__icon}>{icon}</div>}
     </label>
   );
 };

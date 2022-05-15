@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Header from "./header";
-import Sidebar from "./sidebar";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 import s from "./layout.module.scss";
 
 interface ILayout {
@@ -10,7 +10,7 @@ interface ILayout {
   title: string;
 }
 
-const Index: NextPage<ILayout> = ({ children, title }) => {
+const Layout: NextPage<ILayout> = ({ children, title }) => {
   return (
     <>
       <Head>
@@ -27,4 +27,4 @@ const Index: NextPage<ILayout> = ({ children, title }) => {
   );
 };
 
-export default Index;
+export default Layout;

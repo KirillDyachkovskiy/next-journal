@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
-import Layout from "../components/layout";
-import Button from "../ui/button";
-import Input from "../ui/input";
 import { ChangeEvent, useState } from "react";
+import Layout from "../components/Layout";
+import { Button, Input } from "../ui";
 import { BiSearchAlt2 } from "react-icons/bi";
 
 const Home: NextPage = () => {

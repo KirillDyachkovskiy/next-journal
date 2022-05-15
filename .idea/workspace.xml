@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ui/input/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/input/input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/Sidebar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/Button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/sidebar/sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/sidebar/sidebar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/sidebar/sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Sidebar/sidebar.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ui/button/button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ui/Button/button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/Input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/input/input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ui/Input/input.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Layout/Header" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,10 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\components\Layout\Header" />
+      <recent name="D:\react\_pets\next-journal\components\Layout\Sidebar" />
+      <recent name="D:\react\_pets\next-journal\ui\button" />
       <recent name="D:\react\_pets\next-journal\ui" />
       <recent name="D:\react\_pets\next-journal\components\ui" />
-      <recent name="D:\react\_pets\next-journal\styles\layout" />
-      <recent name="D:\react\_pets\next-journal\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\react\_pets\next-journal" />
@@ -100,7 +113,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652176347798</updated>
       <workItem from="1652176351177" duration="1186000" />
-      <workItem from="1652178564167" duration="7205000" />
+      <workItem from="1652178564167" duration="7842000" />
+      <workItem from="1652630159187" duration="1186000" />
     </task>
     <servers />
   </component>
