@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Profile/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/ProfileHeader/ProfileHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/ProfileHeader/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/ProfileHeader/profileHeader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/ProfileWall/ProfileWall.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/ProfileWall/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/ProfileWall/profileWall.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/profile.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutHeader/LayoutHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutHeader/layoutHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutHeader/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutSidebar/LayoutSidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Sidebar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutSidebar/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Sidebar/sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/LayoutSidebar/layoutSidebar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout/layout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Profile/ProfileHeader/profileHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Profile/ProfileHeader/profileHeader.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,18 +57,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\ui" />
       <recent name="D:\react\_pets\next-journal\components" />
       <recent name="D:\react\_pets\next-journal\components\Profile" />
       <recent name="D:\react\_pets\next-journal\components\Layout\Header" />
       <recent name="D:\react\_pets\next-journal\components\Layout\Sidebar" />
-      <recent name="D:\react\_pets\next-journal\ui\button" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\views" />
       <recent name="D:\react\_pets\next-journal" />
       <recent name="D:\react\_pets\next-journal\components\layout" />
       <recent name="D:\react\_pets\next-journal\components\layout\sidebar" />
       <recent name="D:\react\_pets\next-journal\components\layout\layout" />
-      <recent name="D:\react\_pets\next-journal\components\layout\header" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,7 +98,7 @@
       <updated>1652176347798</updated>
       <workItem from="1652176351177" duration="1186000" />
       <workItem from="1652178564167" duration="7842000" />
-      <workItem from="1652630159187" duration="3243000" />
+      <workItem from="1652630159187" duration="3690000" />
     </task>
     <servers />
   </component>

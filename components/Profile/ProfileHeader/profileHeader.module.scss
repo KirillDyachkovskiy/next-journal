@@ -2,13 +2,11 @@
 
 .profileHeader {
   width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  background-color: $field;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 
+  @include wrapper;
   @include shadow;
 
   &__information {
