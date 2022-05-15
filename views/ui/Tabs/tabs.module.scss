@@ -1,0 +1,32 @@
+@import "views/styles/variables";
+
+.tabs {
+  display: flex;
+  user-select: none;
+
+  &__label {
+    color: $tab;
+    font-weight: $tab-fw;
+    font-size: $tab-fs;
+    padding: 10px 30px;
+    margin: 0;
+    transition: 0.3s color linear;
+  }
+
+  &__radio {
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+
+    &:checked + .tabs__label {
+      color: $tab-active;
+      border-bottom: 2px solid $tab-active;
+    }
+
+    &:focus-visible + .tabs__label {
+      color: $tab-active;
+    }
+  }
+}
