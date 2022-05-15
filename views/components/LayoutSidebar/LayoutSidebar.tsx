@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 import Link from "next/link";
 
 import { BiListUl, BiTrendingUp } from "react-icons/bi";
@@ -7,7 +7,7 @@ import { MdOutlineLocalFireDepartment } from "react-icons/md";
 
 import s from "./layoutSidebar.module.scss";
 
-const LayoutSidebar: NextPage = () => {
+const LayoutSidebar: FC = () => {
   return (
     <nav className={s.sidebar}>
       <ul className={s.sidebar__ul}>

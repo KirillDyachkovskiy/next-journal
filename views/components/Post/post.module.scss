@@ -1,6 +1,6 @@
 @import "views/styles/variables";
 
-.ratingHeader {
+.post {
   @include wrapper;
   @include shadow;
 
@@ -10,5 +10,11 @@
 
   &__text {
     margin: 0;
+  }
+
+  &__footer {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
   }
 }

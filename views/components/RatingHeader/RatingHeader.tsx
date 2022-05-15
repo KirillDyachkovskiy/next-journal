@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 
 import s from "./ratingHeader.module.scss";
 
-const RatingHeader: NextPage = () => {
+const RatingHeader: FC = () => {
   return (
     <section className={s.ratingHeader}>
       <h1 className={s.ratingHeader__title}>Рейтинг сообщества и блогов</h1>

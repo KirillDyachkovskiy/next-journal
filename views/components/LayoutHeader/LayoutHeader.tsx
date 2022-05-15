@@ -1,8 +1,7 @@
-import type { NextPage } from "next";
+import { ChangeEvent, FC, useState } from "react";
 import Link from "next/link";
-import { ChangeEvent, useState } from "react";
 
-import { Button, Input } from "../../../ui";
+import { Button, Input } from "../../ui";
 import { SiNextdotjs } from "react-icons/si";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { FiBell } from "react-icons/fi";
@@ -11,7 +10,7 @@ import { CgProfile } from "react-icons/cg";
 
 import s from "./layoutHeader.module.scss";
 
-const LayoutHeader: NextPage = () => {
+const LayoutHeader: FC = () => {
   const [search, setSearch] = useState<string>("");
 
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {

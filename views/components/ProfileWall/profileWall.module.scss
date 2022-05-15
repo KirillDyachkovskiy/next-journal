@@ -1,6 +1,6 @@
-.profile {
-  margin: 0 auto;
-  width: 640px;
+@import "../../styles/variables";
+
+.profileWall {
   display: flex;
   flex-direction: column;
   gap: 10px;

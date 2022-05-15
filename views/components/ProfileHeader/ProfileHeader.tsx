@@ -1,13 +1,13 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 
+import { Button } from "../../ui";
 import { CgProfile } from "react-icons/cg";
-
-import s from "./profileHeader.module.scss";
-import { Button } from "../../../ui";
 import { FiSettings } from "react-icons/fi";
 import { RiMessage2Line } from "react-icons/ri";
 
-const ProfileHeader: NextPage = () => {
+import s from "./profileHeader.module.scss";
+
+const ProfileHeader: FC = () => {
   return (
     <section className={s.profileHeader}>
       <div className={s.profileHeader__information}>

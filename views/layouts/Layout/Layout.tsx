@@ -1,8 +1,9 @@
-import { ReactNode } from "react";
-import type { NextPage } from "next";
+import { FC, ReactNode } from "react";
 import Head from "next/head";
-import LayoutHeader from "./LayoutHeader";
-import LayoutSidebar from "./LayoutSidebar";
+
+import LayoutHeader from "../../components/LayoutHeader";
+import LayoutSidebar from "../../components/LayoutSidebar";
+
 import s from "./layout.module.scss";
 
 interface ILayout {
@@ -10,7 +11,7 @@ interface ILayout {
   title: string;
 }
 
-const Layout: NextPage<ILayout> = ({ children, title }) => {
+const Layout: FC<ILayout> = ({ children, title }) => {
   return (
     <>
       <Head>

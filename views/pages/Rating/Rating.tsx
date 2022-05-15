@@ -1,10 +1,10 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 
-import RatingHeader from "./RatingHeader";
+import { RatingHeader } from "../../components";
 
 import s from "./rating.module.scss";
 
-const Rating: NextPage = () => {
+const Rating: FC = () => {
   return (
     <div className={s.rating}>
       <RatingHeader />

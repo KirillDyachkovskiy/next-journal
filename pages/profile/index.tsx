@@ -1,4 +1,5 @@
-import type { NextPage } from "next";
+import { NextPage } from "next";
+
 import { Layout } from "../../views/layouts";
 import { Profile } from "../../views/pages";
 

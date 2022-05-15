@@ -1,13 +1,14 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 
-import ProfileHeader from "./ProfileHeader";
+import { ProfileHeader, ProfileWall } from "../../components";
 
 import s from "./profile.module.scss";
 
-const Profile: NextPage = () => {
+const Profile: FC = () => {
   return (
     <div className={s.profile}>
       <ProfileHeader />
+      <ProfileWall />
     </div>
   );
 };
