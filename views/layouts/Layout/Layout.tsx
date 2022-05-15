@@ -9,9 +9,10 @@ import s from "./layout.module.scss";
 interface ILayout {
   children: ReactNode;
   title: string;
+  sidebar?: boolean;
 }
 
-const Layout: FC<ILayout> = ({ children, title }) => {
+const Layout: FC<ILayout> = ({ children, title, sidebar = false }) => {
   return (
     <>
       <Head>
@@ -21,7 +22,7 @@ const Layout: FC<ILayout> = ({ children, title }) => {
       </Head>
       <LayoutHeader />
       <div className={s.layout__content}>
-        <LayoutSidebar />
+        {sidebar && <LayoutSidebar />}
         <main className={s.layout__main}>{children}</main>
       </div>
     </>

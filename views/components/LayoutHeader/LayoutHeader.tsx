@@ -20,7 +20,11 @@ const LayoutHeader: FC = () => {
   return (
     <header className={s.header}>
       <div className={s.header__leftSide}>
-        <SiNextdotjs />
+        <Link href="/">
+          <a>
+            <SiNextdotjs />
+          </a>
+        </Link>
         <Input
           id="sidebarInput"
           value={search}
@@ -28,9 +32,11 @@ const LayoutHeader: FC = () => {
           placeholder="Поиск"
           icon={<BiSearchAlt2 />}
         />
-        <Button type="secondary" onClick={() => {}}>
-          Новая запись
-        </Button>
+        <Link href="/write">
+          <a>
+            <Button type="secondary">Новая запись</Button>
+          </a>
+        </Link>
       </div>
       <div className={s.header__rightSide}>
         <RiMessage2Line />

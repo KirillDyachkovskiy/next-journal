@@ -5,7 +5,7 @@ import { Profile } from "../../views/pages";
 
 const ProfilePage: NextPage = () => {
   return (
-    <Layout title="Profile">
+    <Layout title="Profile" sidebar>
       <Profile />
     </Layout>
   );

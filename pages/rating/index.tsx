@@ -4,7 +4,7 @@ import { Rating } from "../../views/pages";
 
 const RatingPage: NextPage = () => {
   return (
-    <Layout title="Rating">
+    <Layout title="Rating" sidebar>
       <Rating />
     </Layout>
   );
