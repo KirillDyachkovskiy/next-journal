@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
+import LayoutHeader from "./LayoutHeader";
+import LayoutSidebar from "./LayoutSidebar";
 import s from "./layout.module.scss";
 
 interface ILayout {
@@ -18,10 +18,10 @@ const Layout: NextPage<ILayout> = ({ children, title }) => {
         <meta name="description" content="Clone of TJournal" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <LayoutHeader />
       <div className={s.layout__content}>
-        <Sidebar />
-        <main>{children}</main>
+        <LayoutSidebar />
+        <main className={s.layout__main}>{children}</main>
       </div>
     </>
   );

@@ -1,0 +1,49 @@
+@import "../../../styles/variables";
+
+.profileHeader {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: $field;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  @include shadow;
+
+  &__information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__avatar {
+    width: 96px;
+    height: 96px;
+  }
+
+  &__name {
+    margin: 0;
+  }
+
+  &__characteristics {
+    margin: 0;
+  }
+
+  &__views {
+    margin-right: 10px;
+    color: $views;
+  }
+
+  &__subscribers {
+  }
+
+  &__addition {
+    margin: 0;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 5px;
+  }
+}

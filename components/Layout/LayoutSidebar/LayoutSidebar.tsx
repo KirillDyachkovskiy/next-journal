@@ -1,16 +1,18 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+
 import { BiListUl, BiTrendingUp } from "react-icons/bi";
 import { RiMessage2Line } from "react-icons/ri";
 import { MdOutlineLocalFireDepartment } from "react-icons/md";
-import s from "./sidebar.module.scss";
 
-const Sidebar: NextPage = () => {
+import s from "./layoutSidebar.module.scss";
+
+const LayoutSidebar: NextPage = () => {
   return (
     <nav className={s.sidebar}>
       <ul className={s.sidebar__ul}>
         <li className={s.sidebar__li}>
-          <Link href="#">
+          <Link href="/">
             <a className={s.sidebar__item}>
               <MdOutlineLocalFireDepartment className={s.sidebar__icon} />
               Wall
@@ -46,4 +48,4 @@ const Sidebar: NextPage = () => {
   );
 };
 
-export default Sidebar;
+export default LayoutSidebar;

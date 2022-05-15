@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import Layout from "../../components/Layout";
+import { Layout, Profile } from "../../components";
 
-const Profile: NextPage = () => {
+const ProfilePage: NextPage = () => {
   return (
     <Layout title="Profile">
-      <div>Lol</div>
+      <Profile />
     </Layout>
   );
 };
 
-export default Profile;
+export default ProfilePage;
