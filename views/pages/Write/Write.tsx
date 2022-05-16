@@ -13,7 +13,7 @@ const WritePage: FC = () => {
   return (
     <div className={s.write}>
       <Input
-        id="setPostTitle"
+        id="postTitle"
         value={postTitle}
         onChange={onTitleChange}
         placeholder="ЗАГОЛОВОК"

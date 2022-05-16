@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/write/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/Home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/Home/home.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/Home/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/Write/Write.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/Write/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/Write/write.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/rating/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rating/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutHeader/LayoutHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutHeader/LayoutHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutSidebar/layoutSidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutSidebar/layoutSidebar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Write/Write.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/Write/Write.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +106,8 @@
       <workItem from="1652176351177" duration="1186000" />
       <workItem from="1652178564167" duration="7842000" />
       <workItem from="1652630159187" duration="4434000" />
-      <workItem from="1652634805232" duration="6992000" />
+      <workItem from="1652634805232" duration="7106000" />
+      <workItem from="1652680118902" duration="659000" />
     </task>
     <servers />
   </component>
