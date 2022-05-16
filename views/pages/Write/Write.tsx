@@ -1,7 +1,12 @@
-import { ChangeEvent, FC, useState } from "react";
-
+import {ChangeEvent, FC, useState} from "react";
+import dynamic from "next/dynamic";
+import {Input} from "../../ui";
 import s from "./write.module.scss";
-import { Input } from "../../ui";
+
+// @ts-ignore
+const Editor = dynamic(() => import("/data/Editor"), {
+  ssr: false,
+});
 
 const WritePage: FC = () => {
   const [postTitle, setPostTitle] = useState<string>("");
@@ -18,7 +23,7 @@ const WritePage: FC = () => {
         onChange={onTitleChange}
         placeholder="ЗАГОЛОВОК"
       />
-      <textarea placeholder="напишите ваше сообщение" />
+      <Editor />
     </div>
   );
 };
