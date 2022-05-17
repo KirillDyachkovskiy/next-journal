@@ -2,7 +2,6 @@
 
 .profileHeader {
   @include wrapper(10px 10px 0);
-  @include shadow;
 
   &__card {
     display: flex;

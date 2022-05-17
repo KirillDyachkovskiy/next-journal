@@ -6,12 +6,16 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
   }
 
   &__li {
     list-style: none;
-    padding: 5px;
+    padding: 10px;
+
+    &_active {
+      @include wrapper(10px);
+    }
   }
 
   &__item {

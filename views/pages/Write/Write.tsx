@@ -4,7 +4,7 @@ import {Input} from "../../ui";
 import s from "./write.module.scss";
 
 // @ts-ignore
-const Editor = dynamic(() => import("/data/Editor"), {
+const Editor = dynamic(() => import("/views/ui/Editor"), {
   ssr: false,
 });
 

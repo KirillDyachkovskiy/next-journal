@@ -10,6 +10,7 @@ $shadow-color: rgb(160, 160, 160);
 }
 
 @mixin wrapper($padding: 10px) {
+  @include shadow;
   padding: $padding;
   border-radius: 8px;
   background-color: $field;

@@ -2,7 +2,6 @@
 
 .ratingHeader {
   @include wrapper(10px 10px 0);
-  @include shadow;
 
   &__title {
     margin: 0 0 10px 0;
