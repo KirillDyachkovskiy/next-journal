@@ -7,6 +7,7 @@ import { FiMessageSquare } from "react-icons/fi";
 import { BsBookmark, BsShareFill } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import { RiMessage2Line } from "react-icons/ri";
+import { AiOutlineUserAdd } from "react-icons/ai";
 
 import cn from "classnames";
 import s from "./post.module.scss";
@@ -45,7 +46,9 @@ const Post: FC<IPost> = ({ full = false }) => {
           </div>
           <div className={s.post__submits}>
             <Button type="secondary" icon={<RiMessage2Line />} />
-            <Button type="secondary">Подписаться</Button>
+            <Button type="secondary" icon={<AiOutlineUserAdd />}>
+              Подписаться
+            </Button>
           </div>
         </div>
       )}

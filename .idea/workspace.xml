@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/post/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/ui/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/Post.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/ui/Post/post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/post.module.scss" afterDir="false" />
@@ -111,7 +110,7 @@
       <workItem from="1652634805232" duration="7106000" />
       <workItem from="1652680118902" duration="3629000" />
       <workItem from="1652690564392" duration="11000" />
-      <workItem from="1652809974439" duration="5504000" />
+      <workItem from="1652809974439" duration="5665000" />
     </task>
     <servers />
   </component>
