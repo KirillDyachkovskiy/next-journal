@@ -5,16 +5,24 @@ import { Button, Rating } from "../index";
 import { MdRepeat } from "react-icons/md";
 import { FiMessageSquare } from "react-icons/fi";
 import { BsBookmark, BsShareFill } from "react-icons/bs";
-import { CgProfile } from "react-icons/cg";
 import { RiMessage2Line } from "react-icons/ri";
 import { AiOutlineUserAdd } from "react-icons/ai";
 
 import cn from "classnames";
 import s from "./post.module.scss";
+import Author from "../Author";
 
 interface IPost {
   full?: boolean;
 }
+
+///////////
+
+const author = {
+  id: 12,
+  name: "RandomNike",
+  photo: "lsdjafdaljf",
+};
 
 const Post: FC<IPost> = ({ full = false }) => {
   const sPost = cn(s.post, {
@@ -40,8 +48,7 @@ const Post: FC<IPost> = ({ full = false }) => {
       {full && (
         <div className={s.post__footer}>
           <div className={s.post__author}>
-            <CgProfile />
-            Random Nike
+            <Author author={author} />
             <Rating value={1432} />
           </div>
           <div className={s.post__submits}>

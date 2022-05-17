@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.commentsSection {
+  @include wrapper;
+  padding: 30px 100px;
+
+  &__title {
+    font-weight: $comments-section-fw;
+    font-size: $comments-section-fs;
+    margin-bottom: 20px;
+  }
+
+  &__comments {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

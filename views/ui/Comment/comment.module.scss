@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  &__header {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+
+  &__time {
+    font-weight: $comment-time-fw;
+    font-size: $comment-time-fs;
+    color: $comment-time-color;
+  }
+
+
+  &__main {
+    font-size: $comment-fs;
+    font-weight: $comment-fw;
+    color: $comment-color;
+    margin-bottom: 5px;
+  }
+}
