@@ -1,5 +1,6 @@
 import { FC } from "react";
-import Post from "../Post";
+
+import { Post } from "../../ui";
 
 import s from "./profileWall.module.scss";
 

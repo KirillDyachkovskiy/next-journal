@@ -4,7 +4,9 @@
   @include wrapper(10px 10px 0);
 
   &__title {
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
+    font-size: $rating-header-title-fs;
+    font-weight: $rating-header-title-fw;
   }
 
   &__text {

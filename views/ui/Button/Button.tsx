@@ -1,17 +1,22 @@
 import { FC, MouseEventHandler, ReactElement } from "react";
+
+import { RequireAtLeastOne } from "../../../data/types/RequireAtLeastOne";
+
 import cn from "classnames";
 import s from "./button.module.scss";
 
 interface IButton {
   children: string;
-  icon?: ReactElement;
+  icon: ReactElement;
   type?: "accent" | "secondary";
   htmlType?: "button" | "submit";
   disabled?: boolean;
   onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-const Button: FC<IButton> = ({
+type TButton = RequireAtLeastOne<IButton, "children" | "icon">;
+
+const Button: FC<TButton> = ({
   children,
   icon,
   type = "accent",

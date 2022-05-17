@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+.post {
+  @include wrapper;
+
+  &_full {
+    padding: 0 50px;
+  }
+
+  &__title {
+    font-size: $post-title-fs;
+    font-weight: $post-title-fw;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    margin: 0;
+  }
+
+  &__actions {
+    padding: 5px;
+    margin: 10px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: $post-icon;
+
+    &_full {
+      background-color: pink;
+      width: 200px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__author {
+    display: flex;
+    gap: 5px;
+  }
+
+  &__submits {
+    display: flex;
+    gap: 10px;
+  }
+}

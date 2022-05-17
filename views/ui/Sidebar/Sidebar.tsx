@@ -1,8 +1,9 @@
 import { FC, ReactElement } from "react";
 import Link from "next/link";
-
-import s from "./sidebar.module.scss";
 import { useRouter } from "next/router";
+
+import cn from "classnames";
+import s from "./sidebar.module.scss";
 
 type TSidebarItem = {
   path: string;
@@ -23,9 +24,9 @@ const Sidebar: FC<ISidebar> = ({ items }) => {
         {items.map(({ path, icon, label }: TSidebarItem) => (
           <li
             key={path}
-            className={`${s.sidebar__li} ${
-              path === asPath ? s.sidebar__li_active : ""
-            }`}
+            className={cn(s.sidebar__li, {
+              [s.sidebar__li_active]: path === asPath,
+            })}
           >
             <Link href={path}>
               <a className={s.sidebar__item}>

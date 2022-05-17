@@ -1,14 +1,22 @@
 import type { NextPage } from "next";
 
 import { Layout } from "../views/layouts";
-import Home from "../views/pages/Home";
+import { Post } from "../views/ui";
 
-const HomePage: NextPage = () => {
+import s from "../views/styles/pages/home.module.scss";
+
+const Home: NextPage = () => {
   return (
     <Layout title="Home" sidebar>
-      <Home />
+      <section className={s.home}>
+        {Array(10)
+          .fill(0)
+          .map((_, id: number) => (
+            <Post key={id} />
+          ))}
+      </section>
     </Layout>
   );
 };
 
-export default HomePage;
+export default Home;

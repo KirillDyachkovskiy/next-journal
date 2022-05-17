@@ -2,23 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/messages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subscriptions/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/styles/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ui/Rating/Rating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ui/Rating/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ui/Rating/rating.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Editor/Editor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Editor/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Editor/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutHeader/layoutHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutHeader/layoutHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutSidebar/LayoutSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutSidebar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Sidebar/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutSidebar/layoutSidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Sidebar/sidebar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/Post/post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/Post/post.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/types/RequireAtLeastOne.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/types/RequireAtLeastOne.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/rating/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rating/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/write/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/write/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/Post/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/Post/post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/post.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/ProfileHeader/ProfileHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/ProfileHeader/ProfileHeader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/components/ProfileHeader/profileHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/ProfileHeader/profileHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/ProfileWall/ProfileWall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/ProfileWall/ProfileWall.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/components/RatingHeader/ratingHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/RatingHeader/ratingHeader.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/Write/Write.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/Write/Write.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Home/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Home/home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/pages/home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Home/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Profile/Profile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Profile/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Profile/profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/pages/profile.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Rating/Rating.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Rating/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Rating/rating.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/pages/rating.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Write/Write.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Write/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/Write/write.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/pages/write.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ui/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -68,7 +87,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -80,18 +99,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\react\_pets\next-journal\pages" />
       <recent name="D:\react\_pets\next-journal\views\ui" />
+      <recent name="D:\react\_pets\next-journal\pages" />
       <recent name="D:\react\_pets\next-journal\views\pages" />
       <recent name="D:\react\_pets\next-journal\views\components" />
       <recent name="D:\react\_pets\next-journal\views\components\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\views\styles\pages" />
+      <recent name="D:\react\_pets\next-journal\views\styles\" />
       <recent name="D:\react\_pets\next-journal\views\ui" />
       <recent name="D:\react\_pets\next-journal\views\components" />
       <recent name="D:\react\_pets\next-journal\views\pages" />
-      <recent name="D:\react\_pets\next-journal\views" />
-      <recent name="D:\react\_pets\next-journal" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,7 +144,7 @@
       <workItem from="1652634805232" duration="7106000" />
       <workItem from="1652680118902" duration="3629000" />
       <workItem from="1652690564392" duration="11000" />
-      <workItem from="1652809974439" duration="1598000" />
+      <workItem from="1652809974439" duration="4197000" />
     </task>
     <servers />
   </component>
