@@ -4,7 +4,12 @@
   @include wrapper;
 
   &_full {
-    padding: 0 50px;
+    padding: 30px 100px;
+
+    .post__actions {
+      margin: 20px 0;
+      width: 200px;
+    }
   }
 
   &__title {

@@ -1,22 +1,27 @@
 import { FC } from "react";
 
+import { Button, Rating } from "../index";
+
 import { MdRepeat } from "react-icons/md";
 import { FiMessageSquare } from "react-icons/fi";
 import { BsBookmark, BsShareFill } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
-
-import s from "./post.module.scss";
-import Rating from "../Rating";
-import { Button } from "../index";
 import { RiMessage2Line } from "react-icons/ri";
+
+import cn from "classnames";
+import s from "./post.module.scss";
 
 interface IPost {
   full?: boolean;
 }
 
 const Post: FC<IPost> = ({ full = false }) => {
+  const sPost = cn(s.post, {
+    [s.post_full]: full,
+  });
+
   return (
-    <article className={s.post}>
+    <article className={sPost}>
       <h2 className={s.post__title}>
         Кот прилёг отдохнуть в английскои парке миниатюр = и стал героем шуток и
         фотожаб о &quot гигантском пушистом захватичике &quot
