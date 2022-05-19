@@ -6,11 +6,28 @@
   border: 0;
   appearance: none;
   outline: none;
-  border-radius: 7px;
-  padding: 7px 15px;
   transition: all linear 0.1s;
   cursor: pointer;
-  @include shadow;
+
+  &_color_accent {
+    color: $button-accent-color;
+    background: $button-accent-bg;
+  }
+
+  &_color_secondary {
+    color: $button-secondary-color;
+    background: $button-secondary-bg;
+  }
+
+  &_variant_text {
+    background: none;
+  }
+
+  &_variant_button {
+    border-radius: 7px;
+    padding: 7px 15px;
+    @include shadow;
+  }
 
   &:active:not(:disabled) {
     transform: scale(0.9);
@@ -26,14 +43,4 @@
   &:focus {
     filter: brightness(1.2);
   }
-}
-
-.accent {
-  color: $button-accent-color;
-  background: $button-accent-bg;
-}
-
-.secondary {
-  color: $button-secondary-color;
-  background: $button-secondary-bg;
 }

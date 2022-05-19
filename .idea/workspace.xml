@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/prettifyDate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/CommentsSection/CommentsSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/CommentsSection/commentsSection.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/CommentsSection/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/styles/pages/post.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Author/Author.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Author/author.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Author/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Comment/Comment.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Comment/comment.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/ui/Comment/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ui/Popup/Popup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ui/Popup/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ui/Popup/popup.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/post/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/post/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ui/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/Post.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ui/Post/post.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Post/post.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/LayoutHeader/LayoutHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutHeader/LayoutHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/ProfileHeader/ProfileHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/ProfileHeader/ProfileHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ui/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ui/Button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Button/button.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,9 +70,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\_pets\next-journal\views\ui" />
       <recent name="D:\react\_pets\next-journal\views\components" />
       <recent name="D:\react\_pets\next-journal\data\helpers" />
-      <recent name="D:\react\_pets\next-journal\views\ui" />
       <recent name="D:\react\_pets\next-journal\pages" />
       <recent name="D:\react\_pets\next-journal\views\pages" />
     </key>
@@ -126,7 +115,9 @@
       <workItem from="1652634805232" duration="7106000" />
       <workItem from="1652680118902" duration="3629000" />
       <workItem from="1652690564392" duration="11000" />
-      <workItem from="1652809974439" duration="8972000" />
+      <workItem from="1652809974439" duration="9028000" />
+      <workItem from="1652864328081" duration="32000" />
+      <workItem from="1652983616649" duration="984000" />
     </task>
     <servers />
   </component>

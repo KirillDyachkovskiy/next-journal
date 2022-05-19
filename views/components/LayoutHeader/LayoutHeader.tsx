@@ -34,7 +34,7 @@ const LayoutHeader: FC = () => {
         />
         <Link href="/write">
           <a>
-            <Button type="secondary">Новая запись</Button>
+            <Button color="secondary">Новая запись</Button>
           </a>
         </Link>
       </div>

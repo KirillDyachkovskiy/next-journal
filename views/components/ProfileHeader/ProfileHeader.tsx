@@ -23,7 +23,7 @@ const ProfileHeader: FC = () => {
           <p className={s.profileHeader__addition}>На проекте с 15 сен. 2016</p>
         </div>
         <div className={s.profileHeader__actions}>
-          <Button type="secondary" icon={<FiSettings />} />
+          <Button color="secondary" icon={<FiSettings />} />
           <Button icon={<RiMessage2Line />}>Написать</Button>
         </div>
       </div>

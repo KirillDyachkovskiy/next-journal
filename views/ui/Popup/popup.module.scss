@@ -1,0 +1,41 @@
+@keyframes popup {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup {
+  align-items: center;
+  animation: popup 0.3s ease-out;
+  background: rgba(#000, 0.4);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+
+  &__overlay {
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  &__body {
+    box-shadow: 0 0 6px rgba(#000, 0.1);
+    position: relative;
+  }
+}
