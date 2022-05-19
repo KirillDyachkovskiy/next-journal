@@ -2,19 +2,22 @@ import {
   ChangeEventHandler,
   FC,
   FocusEventHandler,
+  HTMLProps,
   ReactElement,
-  RefObject,
+  RefCallback,
 } from "react";
 import s from "./input.module.scss";
 
-interface IInput {
+interface IInput extends HTMLProps<HTMLInputElement> {
   id: string;
   value: string;
   onChange: ChangeEventHandler<HTMLInputElement>;
   placeholder?: string;
+  label?: string;
+  error?: string;
   icon?: ReactElement;
   onBlur?: FocusEventHandler<HTMLInputElement>;
-  customRef?: RefObject<HTMLInputElement>;
+  ref?: RefCallback<HTMLInputElement>;
 }
 
 const Input: FC<IInput> = ({
@@ -22,15 +25,18 @@ const Input: FC<IInput> = ({
   value,
   onChange,
   placeholder,
+  label,
+  error,
   icon,
   onBlur,
-  customRef,
+  ref,
 }) => {
   return (
     <label htmlFor={id} className={s.input}>
+      {label && <span className={s.input__label}>{label}</span>}
       {icon && <div className={s.input__icon}>{icon}</div>}
       <input
-        ref={customRef}
+        ref={ref}
         id={id}
         className={s.input__field}
         type="text"
@@ -39,6 +45,7 @@ const Input: FC<IInput> = ({
         placeholder={placeholder}
         onBlur={onBlur}
       />
+      {error && <span className={s.input__error}>{error}</span>}
     </label>
   );
 };

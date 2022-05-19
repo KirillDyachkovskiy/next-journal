@@ -1,30 +1,53 @@
-import { FC, useState } from "react";
+import { FC } from "react";
+import { FormProvider, useForm } from "react-hook-form";
 import { useInput } from "../../hooks";
 
-import { Input, Popup } from "../../ui";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { loginValidation } from "../../../data/schemas";
 
-import { CgProfile } from "react-icons/cg";
+import { Button, Input } from "../../ui";
 
 import s from "./loginForm.module.scss";
 
 const LoginForm: FC = () => {
-  const [active, setActive] = useState<boolean>(false);
+  const form = useForm({
+    resolver: yupResolver(loginValidation),
+    mode: "onChange",
+  });
 
-  const showPopup = () => setActive(true);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = form;
 
-  const hidePopup = () => setActive(false);
+  const onSubmit = (data: any) => console.log(data);
 
   return (
-    <>
-      <CgProfile onClick={showPopup} className={s.loginForm__button} />
-      <Popup active={active} onClose={hidePopup}>
-        <div className={s.loginForm}>
-          <Input id="password" {...useInput("")} />
-          <Input id="nickname" {...useInput("")} />
-          <Input id="email" {...useInput("")} />
+    <FormProvider {...form}>
+      <form className={s.loginForm} onSubmit={handleSubmit(onSubmit)}>
+        <Input
+          id="email"
+          label="Email"
+          {...register("email")}
+          error={errors["email"]?.message}
+          {...useInput("")}
+        />
+        <Input
+          id="password"
+          label="Пароль"
+          {...register("password")}
+          error={errors["password"]?.message}
+          {...useInput("")}
+        />
+        <div className={s.loginForm__footer}>
+          <Button htmlType="submit">Зайти</Button>
+          <Button onClick={() => {}} color="secondary" variant="text">
+            Регистрация
+          </Button>
         </div>
-      </Popup>
-    </>
+      </form>
+    </FormProvider>
   );
 };
 

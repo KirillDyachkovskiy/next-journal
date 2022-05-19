@@ -7,7 +7,7 @@
   appearance: none;
   outline: none;
   transition: all linear 0.1s;
-  padding: 0;
+  padding: 7px 15px;
   cursor: pointer;
 
   &_color_accent {
@@ -26,7 +26,6 @@
 
   &_variant_button {
     border-radius: 7px;
-    padding: 7px 15px;
     @include shadow;
   }
 

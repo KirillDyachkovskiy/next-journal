@@ -1,5 +1,4 @@
-import { ReactNode } from "react";
-import { createPortal } from "react-dom";
+import { MouseEvent, ReactNode } from "react";
 
 import cn from "classnames";
 import s from "./popup.module.scss";
@@ -18,11 +17,15 @@ function Popup({ children, active, onClose }: PopupProps) {
     [s.popup__body_active]: active,
   });
 
-  return createPortal(
+  const preventPropagation = (e: MouseEvent<HTMLDivElement>) =>
+    e.stopPropagation();
+
+  return (
     <div className={sPopup} onClick={onClose}>
-      <div className={sPopupBody}>{children}</div>
-    </div>,
-    document.body
+      <div className={sPopupBody} onClick={preventPropagation}>
+        {children}
+      </div>
+    </div>
   );
 }
 

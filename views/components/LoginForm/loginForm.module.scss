@@ -4,8 +4,12 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 480px;
 
-  &__button {
-    cursor: pointer;
+  @include wrapper(30px 50px);
+
+  &__footer {
+    display: flex;
+    gap: 10px;
   }
 }

@@ -3,6 +3,12 @@
 .input {
   position: relative;
 
+  &__label {
+    color: $input-label;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
   &__field {
     appearance: none;
     border: 1px solid $input-border-color;
@@ -32,5 +38,11 @@
     color: $input-placeholder;
     top: 4px;
     left: 10px;
+  }
+
+  &__error {
+    color: $input-error;
+    display: inline-block;
+    margin-top: 5px;
   }
 }
