@@ -1,5 +1,6 @@
 import {NextPage} from "next";
 import {ChangeEvent, useState} from "react";
+import dynamic from "next/dynamic";
 
 import {Layout} from "../../views/layouts";
 import {Input} from "../../views/ui";

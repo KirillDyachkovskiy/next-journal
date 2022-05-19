@@ -16,7 +16,9 @@ const Comment: FC<TComment> = ({ time, text, user }) => {
       </div>
       <div className={s.comment__main}>{text}</div>
       <div className={s.comment__footer}>
-        <Button type="secondary">Ответить</Button>
+        <Button variant="text" color="secondary">
+          Ответить
+        </Button>
       </div>
     </article>
   );

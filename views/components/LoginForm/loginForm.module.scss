@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__button {
+    cursor: pointer;
+  }
+}

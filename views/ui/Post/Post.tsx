@@ -52,8 +52,8 @@ const Post: FC<IPost> = ({ full = false }) => {
             <Rating value={1432} />
           </div>
           <div className={s.post__submits}>
-            <Button type="secondary" icon={<RiMessage2Line />} />
-            <Button type="secondary" icon={<AiOutlineUserAdd />}>
+            <Button color="secondary" icon={<RiMessage2Line />} />
+            <Button color="secondary" icon={<AiOutlineUserAdd />}>
               Подписаться
             </Button>
           </div>

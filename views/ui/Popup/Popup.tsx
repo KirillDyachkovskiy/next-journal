@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { createPortal } from "react-dom";
 
+import cn from "classnames";
 import s from "./popup.module.scss";
 
 export type PopupProps = {
@@ -10,14 +11,16 @@ export type PopupProps = {
 };
 
 function Popup({ children, active, onClose }: PopupProps) {
-  if (!active) {
-    return null;
-  }
+  const sPopup = cn(s.popup, {
+    [s.popup_active]: active,
+  });
+  const sPopupBody = cn(s.popup__body, {
+    [s.popup__body_active]: active,
+  });
 
   return createPortal(
-    <div className={s.popup}>
-      <div className={s.popup__overlay} onClick={onClose} aria-hidden="true" />
-      <div className={s.popup__body}>{children}</div>
+    <div className={sPopup} onClick={onClose}>
+      <div className={sPopupBody}>{children}</div>
     </div>,
     document.body
   );
