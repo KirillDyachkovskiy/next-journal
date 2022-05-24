@@ -2,19 +2,19 @@ import { FC } from "react";
 import { Controller, FormProvider, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import { loginValidation } from "../../../data/schemas";
+import { registerValidation } from "../../../data/schemas";
 
 import { Button, Input } from "../../ui";
 
-import s from "./loginForm.module.scss";
+import s from "./registerForm.module.scss";
 
-interface ILoginForm {
-  switchToRegister: () => void;
+interface IRegisterForm {
+  switchToLogin: () => void;
 }
 
-const LoginForm: FC<ILoginForm> = ({ switchToRegister }) => {
+const RegisterForm: FC<IRegisterForm> = ({ switchToLogin }) => {
   const form = useForm({
-    resolver: yupResolver(loginValidation),
+    resolver: yupResolver(registerValidation),
     mode: "onChange",
   });
 
@@ -28,7 +28,19 @@ const LoginForm: FC<ILoginForm> = ({ switchToRegister }) => {
 
   return (
     <FormProvider {...form}>
-      <form className={s.loginForm} onSubmit={handleSubmit(onSubmit)}>
+      <form className={s.registerForm} onSubmit={handleSubmit(onSubmit)}>
+        <Controller
+          name="nickname"
+          control={control}
+          render={({ field }) => (
+            <Input
+              id="nickname"
+              label="Никнейм"
+              {...field}
+              error={errors.email?.message}
+            />
+          )}
+        />
         <Controller
           name="email"
           control={control}
@@ -53,10 +65,10 @@ const LoginForm: FC<ILoginForm> = ({ switchToRegister }) => {
             />
           )}
         />
-        <div className={s.loginForm__footer}>
-          <Button htmlType="submit">Зайти</Button>
-          <Button onClick={switchToRegister} color="secondary" variant="text">
-            Регистрация
+        <div className={s.registerForm__footer}>
+          <Button htmlType="submit">Зарегистрироваться</Button>
+          <Button onClick={switchToLogin} color="secondary" variant="text">
+            Войти
           </Button>
         </div>
       </form>
@@ -64,4 +76,4 @@ const LoginForm: FC<ILoginForm> = ({ switchToRegister }) => {
   );
 };
 
-export default LoginForm;
+export default RegisterForm;

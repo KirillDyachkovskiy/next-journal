@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 480px;
+
+  @include wrapper(30px 50px);
+
+  &__footer {
+    display: flex;
+    gap: 10px;
+  }
+}

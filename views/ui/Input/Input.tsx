@@ -1,10 +1,10 @@
 import {
   ChangeEventHandler,
-  FC,
   FocusEventHandler,
+  ForwardedRef,
+  forwardRef,
   HTMLProps,
   ReactElement,
-  RefCallback,
 } from "react";
 import s from "./input.module.scss";
 
@@ -17,37 +17,33 @@ interface IInput extends HTMLProps<HTMLInputElement> {
   error?: string;
   icon?: ReactElement;
   onBlur?: FocusEventHandler<HTMLInputElement>;
-  ref?: RefCallback<HTMLInputElement>;
 }
 
-const Input: FC<IInput> = ({
-  id,
-  value,
-  onChange,
-  placeholder,
-  label,
-  error,
-  icon,
-  onBlur,
-  ref,
-}) => {
-  return (
-    <label htmlFor={id} className={s.input}>
-      {label && <span className={s.input__label}>{label}</span>}
-      {icon && <div className={s.input__icon}>{icon}</div>}
-      <input
-        ref={ref}
-        id={id}
-        className={s.input__field}
-        type="text"
-        value={value}
-        onChange={onChange}
-        placeholder={placeholder}
-        onBlur={onBlur}
-      />
-      {error && <span className={s.input__error}>{error}</span>}
-    </label>
-  );
-};
+const Input = forwardRef<HTMLInputElement, IInput>(
+  (
+    { id, value, onChange, placeholder, label, error, icon, onBlur },
+    ref: ForwardedRef<HTMLInputElement>
+  ) => {
+    return (
+      <label htmlFor={id} className={s.input}>
+        {label && <span className={s.input__label}>{label}</span>}
+        {icon && <div className={s.input__icon}>{icon}</div>}
+        <input
+          ref={ref}
+          id={id}
+          className={s.input__field}
+          type="text"
+          value={value}
+          onChange={onChange}
+          placeholder={placeholder}
+          onBlur={onBlur}
+        />
+        {error && <span className={s.input__error}>{error}</span>}
+      </label>
+    );
+  }
+);
+
+Input.displayName = "Input";
 
 export default Input;
