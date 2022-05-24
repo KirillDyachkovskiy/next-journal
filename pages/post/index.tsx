@@ -7,7 +7,7 @@ import CommentsSection from "../../views/components/CommentsSection";
 
 import s from "../../views/styles/pages/post.module.scss";
 
-const comments: TComment[] = [
+export const hardCodedComments: TComment[] = [
   {
     id: 0,
     text:
@@ -57,7 +57,7 @@ const PostPage: NextPage = () => {
     <Layout title="Full post" sidebar>
       <div className={s.postPage}>
         <Post full />
-        <CommentsSection comments={comments} />
+        <CommentsSection comments={hardCodedComments} />
       </div>
     </Layout>
   );

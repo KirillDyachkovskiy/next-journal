@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8794af-a71d-4cc8-86ba-5fcc7019ad4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/components/RegisterForm/RegisterForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/RegisterForm/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/RegisterForm/registerForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/components/CommentsBar/CommentsBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/components/CommentsBar/commentsBar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/components/CommentsBar/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LayoutLogin/LayoutLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutLogin/LayoutLogin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LoginForm/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/post/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/post/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/CommentsSection/CommentsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/CommentsSection/CommentsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/LayoutHeader/LayoutHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/LayoutHeader/LayoutHeader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ui/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/Layout/layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ui/Comment/Comment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Comment/Comment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ui/Comment/comment.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/views/ui/Comment/comment.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +123,7 @@
       <workItem from="1652809974439" duration="9028000" />
       <workItem from="1652864328081" duration="32000" />
       <workItem from="1652983616649" duration="8314000" />
-      <workItem from="1653415390704" duration="3267000" />
+      <workItem from="1653415390704" duration="4530000" />
     </task>
     <servers />
   </component>

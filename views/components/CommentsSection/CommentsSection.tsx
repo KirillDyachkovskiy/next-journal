@@ -24,7 +24,7 @@ const CommentsSection: FC<ICommentsSection> = ({ comments }) => {
       />
       <div className={s.commentsSection__comments}>
         {comments.map((comment: TComment) => (
-          <Comment key={comment.id} {...comment} />
+          <Comment key={comment.id} comment={comment} />
         ))}
       </div>
     </section>

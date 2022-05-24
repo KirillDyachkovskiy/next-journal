@@ -3,12 +3,25 @@
     margin-top: 10px;
   }
 
-  &__aside {
+  &__nav {
     position: fixed;
     top: 58px;
+    left: 0;
   }
 
   &__main {
-    margin-left: 200px;
+    &_margin_l {
+      margin-left: 200px;
+    }
+
+    &_margin_r {
+      margin-right: 200px;
+    }
+  }
+
+  &__aside {
+    position: fixed;
+    top: 58px;
+    right: 0;
   }
 }

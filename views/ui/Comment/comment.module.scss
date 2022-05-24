@@ -5,6 +5,10 @@
   flex-direction: column;
   gap: 5px;
 
+  &_onlyView {
+    width: 180px;
+  }
+
   &__header {
     display: flex;
     align-items: baseline;

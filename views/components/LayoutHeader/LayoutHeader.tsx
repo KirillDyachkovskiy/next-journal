@@ -2,6 +2,7 @@ import { FC } from "react";
 import Link from "next/link";
 
 import { useInput } from "../../hooks";
+import { LayoutLogin } from "../../components";
 import { Button, Input } from "../../ui";
 
 import { SiNextdotjs } from "react-icons/si";
@@ -10,7 +11,6 @@ import { FiBell } from "react-icons/fi";
 import { RiMessage2Line } from "react-icons/ri";
 
 import s from "./layoutHeader.module.scss";
-import LayoutLogin from "../LayoutLogin";
 
 const LayoutHeader: FC = () => {
   return (

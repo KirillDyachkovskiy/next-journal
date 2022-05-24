@@ -7,7 +7,7 @@ import s from "../views/styles/pages/home.module.scss";
 
 const Home: NextPage = () => {
   return (
-    <Layout title="Home" sidebar>
+    <Layout title="Home" sidebar comments>
       <section className={s.home}>
         {Array(10)
           .fill(0)

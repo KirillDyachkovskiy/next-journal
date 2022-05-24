@@ -1,19 +1,23 @@
 import { FC, ReactNode } from "react";
 import Head from "next/head";
 
-import { LayoutHeader } from "../../components";
+import { CommentsBar, LayoutHeader } from "../../components";
 import { Sidebar } from "../../ui";
 
 import { MdOutlineLocalFireDepartment } from "react-icons/md";
 import { RiMessage2Line } from "react-icons/ri";
 import { BiListUl, BiTrendingUp } from "react-icons/bi";
 
+import cn from "classnames";
 import s from "./layout.module.scss";
+
+import { hardCodedComments } from "../../../pages/post";
 
 interface ILayout {
   children: ReactNode;
   title: string;
   sidebar?: boolean;
+  comments?: boolean;
 }
 
 const sidebarItems = [
@@ -39,7 +43,17 @@ const sidebarItems = [
   },
 ];
 
-const Layout: FC<ILayout> = ({ children, title, sidebar = false }) => {
+const Layout: FC<ILayout> = ({
+  children,
+  title,
+  sidebar = false,
+  comments = false,
+}) => {
+  const sMain = cn({
+    [s.layout__main_margin_l]: sidebar,
+    [s.layout__main_margin_r]: comments,
+  });
+
   return (
     <>
       <Head>
@@ -50,11 +64,16 @@ const Layout: FC<ILayout> = ({ children, title, sidebar = false }) => {
       <LayoutHeader />
       <div className={s.layout__content}>
         {sidebar && (
-          <aside className={s.layout__aside}>
+          <div className={s.layout__nav}>
             <Sidebar items={sidebarItems} />
-          </aside>
+          </div>
         )}
-        <main className={s.layout__main}>{children}</main>
+        <main className={sMain}>{children}</main>
+        {comments && (
+          <div className={s.layout__aside}>
+            <CommentsBar items={hardCodedComments} />
+          </div>
+        )}
       </div>
     </>
   );
